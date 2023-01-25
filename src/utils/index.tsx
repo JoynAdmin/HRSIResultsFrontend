@@ -9,7 +9,7 @@ export class ServicesClass {
       timeout: 3000,
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin ": "http://13.38.72.158/:3000",
+        "Access-Control-Allow-Origin ": "http://13.38.72.158:3000",
       },
     });
     this.service.interceptors.response.use(
