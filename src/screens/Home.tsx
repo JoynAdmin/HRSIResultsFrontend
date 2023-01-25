@@ -23,7 +23,6 @@ export default function Home() {
         });
         return;
       }
-      console.log(data.current.replace(/-/g, ""));
       const result: any = await Postrequest("findrecord", {
         cnic: data.current.replace(/-/g, ""),
       });
